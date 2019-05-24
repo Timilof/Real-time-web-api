@@ -1,5 +1,9 @@
 ![data model 1](app/src/img/app_1.png)    
 
+## live link
+
+https://music-rtw.herokuapp.com/
+
 ## The concept
 The concept was a matching app that matches you with people who have the same music taste as you. To do this I used the Youtube API to pick a few songs. The song choice is made based on the weather, cold weather gives different songs than warm or hot weather. After picking a song the user is able to see other users and their choices, a user can then chat with other users.
 
