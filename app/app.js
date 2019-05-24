@@ -6,7 +6,7 @@ const app = express()
 
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
-const port = 2200;
+const port = process.env.PORT || 2200;
 const fs = require('fs');
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/views/index.html');
@@ -194,4 +194,4 @@ users = filtered
 
 
 
-http.listen(2200, () => console.log(`Example app listening on port ${port}!`))
+http.listen(port, () => console.log(`Example app listening on port ${port}!`))
