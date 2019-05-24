@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Music chat</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="header">
+    <img src="https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png" alt="YT">
+    <h1>Music chat</h1>
+  </div>
+<div class="pre">
+  <nav>
+    <ul>
+      <li>
+        <p id="demp" class="demp">13°</p>
+        <p>Temperature</p>
+      </li>
+      <li>
+        <p id="wint"><span class="wint"></span><span class="wdata">Km/h</span></p>
+        <p>Windspeed</p>
+      </li>
+      <li>
+        <p id="neerslag"><span class="neerslag">41</span> <span class="wdata">H</span></p>
+        <p>Humidity</p>
+      </li>
+    </ul>
+    <!-- <img class="statu" src="https://thumbs.gfycat.com/LazySingleAmazontreeboa-max-1mb.gif" alt="">
+<h1 class="status">Fetching data...</h1> -->
+  </nav>
+  <div class="inlog hidden">
+    <form>
+        <input type="text" placeholder="Username">
+        
+        <button class="versturen"type="submit">Set username</button>
+    </form>
+  </div>
+<div class="sugg">
+  <h2>Pick a favorite from these 5</h2>
+  <div class="suggestion-container"></div>
+</div>
+</div>
+  <main class="hidden">
+    <aside class="">
+
+<div class="usercont">
+
+</div>
+    </aside>
+<div class="chatContainer">
+
+</div>
+
+  </main>
+
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="js/script.js"></script>
+
+</html>
